@@ -1,0 +1,84 @@
+a {
+    border-bottom: none;
+}
+/* Title */
+
+#title {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+/* Project Content */ 
+
+.content {
+    transition: .2s ease-in;
+}
+
+.content:hover {
+    transform: translateY(-5px);
+    
+}
+
+/* Project Images */
+
+.project_img {
+    transition: .4s ease-in;
+    height: auto;
+}
+
+.project_img:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 14px white;
+}
+
+/* Project Logos */
+
+.project_logo {
+    font-size: 1.5em;
+    transition: .2s ease-in;
+}
+
+.project_logo:hover {
+    color: white;
+}
+
+.fa-html5 {
+    color: #f06529;
+}
+
+.fa-css3-alt {
+    color: #2986f1;
+}
+
+.fa-js {
+    color:#f0ed4f;
+}
+
+.fa-react {
+    color: #61dbfb;
+}
+
+.fa-python {
+    color: #306998;
+}
+
+/* Project Code Logos */ 
+
+.project_code_logo {
+    font-size: 1.5em;
+    opacity: 0.5;
+    transition: .2s ease-in;
+}
+
+.project_code_logo:hover {
+    color: white;
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Contacts */
+
+.contact {
+    font-size: 150%;
+}
